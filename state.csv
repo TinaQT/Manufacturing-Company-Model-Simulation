@@ -1,0 +1,48 @@
+# file created by code in factory_simulation.jl
+# file created on 2023-11-07 at 14:04:37
+# parameter seed = 1
+# parameter T = 1000.0
+# parameter mean_interarrival = 60.0
+# parameter mean_construction_time = 25.0
+# parameter mean_interbreakdown_time = 2880.0
+# parameter mean_repair_time = 180.0
+time,event_id,event_type,length_event_list,length_queue,in_service,machine_status
+       0.000,      0,   Arrival,    1,    0,    0,    0
+      25.000,      3, Departure,    2,    0,    1,    0
+      40.499,      2,   Arrival,    1,    0,    0,    0
+      51.694,      5,   Arrival,    2,    0,    1,    0
+      65.499,      6, Departure,    2,    1,    1,    0
+      90.499,      9, Departure,    2,    0,    1,    0
+     117.235,      7,   Arrival,    1,    0,    0,    0
+     142.235,     12, Departure,    2,    0,    1,    0
+     150.000,      1, Breakdown,    1,    0,    0,    0
+     182.987,     11,   Arrival,    1,    0,    0,    1
+     209.096,     15,   Arrival,    1,    1,    0,    1
+     378.339,     16,   Arrival,    1,    2,    0,    1
+     449.016,     17,   Arrival,    1,    3,    0,    1
+     450.529,     18,   Arrival,    1,    4,    0,    1
+     471.849,     19,   Arrival,    1,    5,    0,    1
+     494.568,     20,   Arrival,    1,    6,    0,    1
+     515.349,     21,   Arrival,    1,    7,    0,    1
+     643.668,     22,   Arrival,    1,    8,    0,    1
+     665.480,     23,   Arrival,    1,    9,    0,    1
+     666.409,     24,   Arrival,    1,   10,    0,    1
+     722.645,     25,   Arrival,    1,   11,    0,    1
+     730.587,     14,    Repair,    1,   12,    0,    1
+     755.587,     28, Departure,    2,   11,    1,    0
+     764.182,     26,   Arrival,    2,   10,    1,    0
+     780.587,     30, Departure,    2,   11,    1,    0
+     784.191,     31,   Arrival,    2,   10,    1,    0
+     805.587,     33, Departure,    2,   11,    1,    0
+     813.207,     34,   Arrival,    2,   10,    1,    0
+     830.587,     36, Departure,    2,   11,    1,    0
+     850.963,     37,   Arrival,    2,   10,    1,    0
+     855.587,     39, Departure,    2,   11,    1,    0
+     880.587,     42, Departure,    2,   10,    1,    0
+     905.587,     44, Departure,    2,    9,    1,    0
+     930.587,     46, Departure,    2,    8,    1,    0
+     933.285,     40,   Arrival,    2,    7,    1,    0
+     955.587,     48, Departure,    2,    8,    1,    0
+     980.587,     51, Departure,    2,    7,    1,    0
+     983.767,     49,   Arrival,    2,    6,    1,    0
+    1005.587,     53, Departure,    2,    7,    1,    0
